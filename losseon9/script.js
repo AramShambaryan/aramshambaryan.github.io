@@ -1,4 +1,54 @@
-const array = [5,25,'come on',64];
-console.log(array);
-let object = {5:25, name: 'Name' }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let number1 = parseFloat(prompt("Enter first number:"));
+let operator = prompt("Enter operator (+, -, *, /, %):");
+let number2 = parseFloat(prompt("Enter second number:"));
+
+let result;
+switch (operator) {
+    case '+':
+        result = number1 + number2;
+        break;
+    case '-':
+        result = number1 - number2;
+        break;
+    case '*':
+        result = number1 * number2;
+        break;
+    case '/':
+        result = number1 / number2;
+        break;
+    case '%':
+        result = number1 % number2;
+        break;
+    default:
+        alert("Invalid operator");
+        break;
+}
+
+alert("Result: " + result);
