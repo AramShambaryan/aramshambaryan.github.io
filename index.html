@@ -29,9 +29,7 @@
             font-size: 32px;
             text-align: left;
         	}
-			h1 {
-				text-align: center;				
-			}
+			
 			
 			a::after{
                 display: block;
@@ -45,13 +43,24 @@
 			a:hover::after{
                 transform: scale(1);
             }
+			.all {
+				width: 600px;
+				font-size: 32px;
+				text-align: center;
+				
+			}
 		</style>
 	</head>
 	<body>
-		<h1 class="text">WELCOME TO ARAMS HOME</h1>
+		
 		<button>
 			<a href="https://progcourse.github.io">Programing Course</a>
 		</button>
+		<fieldset class="all">
+			<legend>
+				<strong>WELCOME TO ARAMS HOME</strong>
+			</legend>
+		
 		<fieldset>
 			<legend>
 				<strong>Lessons</strong>
@@ -98,5 +107,6 @@
 				<a href="task/task.html">Task</a>
 			</button>
 		</fieldset>		
+	</fieldset>
 	</body>
 </html>
