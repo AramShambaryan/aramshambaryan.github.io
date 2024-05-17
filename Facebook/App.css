@@ -1,0 +1,102 @@
+#Head {
+    display: flex;
+
+}
+#left-div {
+    width: 30%;
+}
+
+#center-div {
+    width: 40%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    
+}
+#end-div {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    
+}
+
+.na {
+    margin: 5px;
+    font-size: 100%;
+}
+
+.pa {
+    padding: 10px;
+}
+span {
+    padding: 10px;
+}
+
+.left {
+    width: 30%;    
+}
+.center {
+    width: 40%;
+    height: 40%;
+
+}
+
+.end{
+    width: 30%;
+}
+
+.left1 {
+    margin: 5px;
+    width: 48%;
+    display: block;
+}
+
+.dav {
+    background-color: rgb(215, 209, 209);
+    width: 100%;
+    height: 2222px;
+    display: flex;
+}
+.home{
+    background-color: #fff;
+}
+.game{
+    background-color: #fff;
+}
+.group {
+    background-color: #fff;
+}
+.camera{
+    background-color: #fff;
+}
+
+.but {
+    border: 100px;
+    border-radius: 120px;
+}
+.center-prof{
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    height: 10%;
+}
+.ss{
+    border: 1px;
+    border-radius: 100%;
+    background-color: rgb(187, 187, 187);
+}
+.nn{
+    width: 90%;
+    height: 20%;
+}
+
+.video {
+    width: 33%;
+}
+.photovideo{
+    width: 33%;
+}
+.facesmile{
+    width: 34%;
+}
