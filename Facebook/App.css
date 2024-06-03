@@ -37,7 +37,7 @@ span {
     width: 30%;    
 }
 .center {
-    width: 40%;
+    width: 450%;
     height: 40%;
 
 }
@@ -99,4 +99,85 @@ span {
 }
 .facesmile{
     width: 34%;
+}
+
+.fr-nkar {
+    width: 20px;
+}
+.videoset-div{
+    width: 30%;   
+}
+.video-div{
+    width: 70%;
+}
+.non{
+    display: flex;
+
+}
+.Gear{
+    padding: 5px;
+    margin: 20px;
+}
+.right-gr{
+    display: flex;
+}
+.gr-bt{
+    margin: 20px;
+    padding: 5px;
+}
+.gaame{
+    font-size: larger;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    
+
+}
+.games{
+    background-color: rgb(215, 209, 209);
+    display: flex;
+    justify-content: center;
+}
+.puz{
+    background-image: url('images/puzzle.jpg');
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.tet{
+    background-image: url('images/blockblast.jpg');
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.snak{
+    background-image: url('images/snake.jpg');
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.ball{
+    background-image: url('images/baall.jpg');
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.chess{
+    background-image: url('images/chess.jpg');
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
